@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+
+<!-- -->
+<bean id="order1" class="mySpring.Item" >
+	    <property name="itemName" value="Milk" />
+	    <property name="price" value="12.20" />
+	</bean>
+	
+	<bean id="order2" class="mySpring.Item" >
+	    <property name="itemName" value="Kurkure" />
+	    <property name="price" value="20.00" />
+	</bean>
+	
+	<bean id="order3" class="mySpring.Item" >
+	    <property name="itemName" value="Chocolate" />
+	    <property name="price" value="50.00" />
+	</bean>
+	
+		<bean id="order4" class="mySpring.Item" >
+	    <property name="itemName" value="Icecream" />
+	    <property name="price" value="100.00" />
+	</bean>
+
+</beans>
