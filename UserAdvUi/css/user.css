@@ -1,0 +1,39 @@
+
+#reg{
+	margin-top: 70px;
+}
+#login{
+	margin-left: 5px;
+}
+#postad{
+	text-align: center;
+}
+
+input[type=firstname] {
+	width: 500px;
+}
+input[type=lasttname] {
+	width: 500px;
+}
+input[type=username] {
+	width: 500px;
+}
+input[type=password] {
+	width: 500px;
+}
+input[type=email] {
+	width: 500px;
+}
+input[type=lastname] {
+	width: 500px;
+}
+
+
+#logout1{
+	position: fixed;
+	bottom:10px;
+	right:50px;
+}
+
+
+
